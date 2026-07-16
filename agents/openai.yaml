@@ -1,0 +1,6 @@
+interface:
+  display_name: "HX Lens"
+  short_description: "Ethical UX and human-context review lens"
+  default_prompt: "Use $hx-lens to review this experience beyond the interface."
+policy:
+  allow_implicit_invocation: false
