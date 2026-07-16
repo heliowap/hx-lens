@@ -1,65 +1,104 @@
 ---
 name: hx-lens
-description: Aplicar uma lente de Human Experience (HX) a jornadas digitais, sobretudo saúde e contextos sensíveis. Usar quando o usuário invocar explicitamente $hx-lens para avaliar ética, arquitetura de escolhas, contexto físico/social, experiência antes e depois da tela, vulnerabilidade, confiança ou diferença entre o modelo mental humano e o sistema. Não usar para produzir frontend, protótipos, slides, PDFs, imagens, áudio, vídeo ou direção estética.
+description: Projetar e avaliar experiências, produtos, sistemas, software, operações comerciais e marketing por atores, decisões, fricções, influência e resultados.
+disable-model-invocation: true
 ---
 
 # HX Lens
 
-Avaliar a experiência humana além da interface. Complementar, não substituir, pesquisa com usuários, acessibilidade, revisão clínica, compliance ou skills de implementação.
+Projetar sistemas a partir da experiência completa: atores, decisões, restrições, handoffs, interfaces, superfícies e resultados. Usar fricção e influência como forças transversais do produto, da engenharia e do negócio.
 
-## Escopo
+## Ramos
 
-Examinar:
+- **Análise:** criticar jornadas, decisões, fricções, operações, interfaces e consequências.
+- **Design:** projetar UX, superfícies de produto, módulos de software e sistemas de engenharia.
+- **Marketing:** produzir posicionamento, campanhas, ofertas, copy, roteiros, sequências, CTAs e briefs criativos.
+- **Operação comercial:** desenhar pipeline, qualificação, ownership, cadências, CRM, forecast e governança.
 
-- contexto antes, durante e depois da interação;
-- ambiente físico, estado emocional, apoio social e continuidade da jornada;
-- diferença entre linguagem/modelo mental humano e estrutura do sistema;
-- arquitetura de escolhas, consentimento, reversibilidade e assimetria;
-- riscos ampliados por saúde, urgência, medo, dependência ou baixa literacia;
-- evidência necessária para confirmar hipóteses comportamentais.
-
-Não produzir artefatos. Para UI/frontend, usar `impeccable`. Para apresentações, PDFs ou imagens, usar skills oficiais correspondentes.
+Combinar ramos quando o entregável atravessar mais de um. Para implementar código, frontend ou mídia, entregar especificação e direção à skill de produção apropriada.
 
 ## Referências
 
-Carregar somente o necessário:
+Carregar somente o ramo necessário:
 
-- escolhas, mecanismos e limites de inferência: `references/decision-lenses.md`;
-- ética e deceptive patterns: `references/ethical-design.md`;
-- saúde e jornadas sensíveis: `references/healthtech-ux.md`;
-- formato de análise: `references/critique-lens.md`.
+- em todo ramo, fricção entre atores, etapas e handoffs: `references/friction-lens.md`;
+- em crítica ou decisão comportamental: `references/decision-lenses.md` e `references/critique-lens.md`;
+- em design de UX ou superfície de produto: `references/product-ux-design.md`; somar `references/healthtech-ux.md` em saúde ou contexto sensível;
+- em design de software ou arquitetura de módulo: `references/software-design.md`;
+- em design de engenharia, sistema, processo ou produto físico: `references/engineering-design.md`;
+- em gestão de vendas, RevOps ou processo comercial: `references/commercial-operations.md`;
+- em criação de marketing, desejo, persuasão ou PNL: `references/marketing-influence.md`;
+- ao auditar origem, versão, autoridade ou limite das fontes: `references/foundations.md`;
+- em toda criação destinada a publicação, segmentação ou distribuição, carregar limites legais, normativos e regulatórios: `references/compliance-boundaries.md`.
 
 ## Método
 
-1. Definir decisão, pessoa afetada e resultado desejado.
-2. Mapear jornada antes → interação → depois. Incluir consequências fora da tela.
-3. Separar fato observado, hipótese e desconhecido.
-4. Identificar pressão, assimetria, irreversibilidade e grupos vulneráveis.
-5. Aplicar apenas lentes relevantes. Nunca encaixar um viés por obrigação.
-6. Pedir ou propor evidência: entrevista, observação, teste de usabilidade, analytics, experimento ou revisão especializada.
-7. Recomendar menor mudança capaz de reduzir risco ou melhorar compreensão.
-8. Explicitar trade-off, confiança e risco residual.
+1. Definir problema, atores, resultado humano, resultado técnico e resultado de negócio.
+2. Escolher os ramos e carregar apenas suas referências.
+3. Mapear `ator → contexto → objetivo → restrição → decisão → workflow → interface/superfície → consequência`.
+4. Separar evidência, requisito, hipótese, premissa e desconhecido.
+5. Mapear motivação, influência, fricção, estado, handoff e responsabilidade.
+6. Projetar pelo ramo e comparar alternativas quando a decisão for material.
+7. Entregar artefato utilizável: especificação, mapa, operação ou material pronto.
+8. Definir verificação, métrica, trade-off, falha possível e risco residual.
+
+Concluir somente quando toda decisão, interface e handoff material tiver ator ou owner, entrada, regra, estado, consequência, recuperação e evidência de validação. Aplicar também o critério específico da referência carregada.
 
 ## Regras
 
-- Tratar vieses como hipóteses contextuais, não diagnósticos.
-- Não inferir motivação, emoção ou comportamento apenas por screenshot.
-- Não inventar métricas, estudos, personas ou impacto esperado.
-- Não usar coeficientes psicológicos como constantes universais.
-- Não recomendar fricção, ocultação, urgência artificial ou sunk cost para prender pessoas.
-- Favorecer transparência, escolha real, saída simétrica, recuperação de erro e consentimento informado.
-- Em saúde, não substituir julgamento clínico nem apresentar heurística como exigência médica ou legal.
-- Distinguir persuasão legítima de manipulação pelo efeito sobre autonomia, não só pela veracidade literal.
+- Tratar vieses, PNL e mecanismos não conscientes como repertório criativo ou hipótese testável, não como controle mental garantido.
+- Usar desejo, identidade, emoção, atmosfera, antecipação, framing, contraste, símbolos, metáforas e ilusão narrativa quando fortalecerem a proposta.
+- Permitir persuasão clara, intensa ou agressiva conforme o briefing; usar intensidade persuasiva quando ele não especificar.
+- Otimizar para atenção, conversão, avanço comercial, retenção ou ação na intensidade solicitada.
+- Tratar segurança, confiabilidade, privacidade, acessibilidade, reversibilidade e observabilidade como requisitos técnicos proporcionais ao sistema.
+- Preservar rastreabilidade entre requisito, decisão, interface, teste e resultado.
+- Marcar requisito ou dado ausente; usar premissa explícita quando ela não alterar irreversivelmente o projeto.
+- Aplicar disclosures, comprovação, consentimento, elegibilidade e revisão especializada quando exigidos por lei, norma ou regulamentação aplicável.
+- Identificar jurisdição, setor regulado e canal quando eles alterarem o que pode ser publicado.
+- Não transformar limitações de evidência em sermão moral; registrar ressalva somente quando ela mudar a eficácia, a conformidade ou a publicação do material.
 
 ## Saída
 
-Usar formato compacto:
+### Análise
 
-1. **Contexto humano** — situação antes/durante/depois.
-2. **Achados** — observação concreta e risco.
-3. **Hipóteses** — mecanismo possível + confiança.
-4. **Evidência necessária** — como confirmar ou refutar.
-5. **Recomendação** — mudança, benefício e trade-off.
-6. **Limites** — o que permanece incerto ou exige especialista.
+1. **Contexto humano e comercial**
+2. **Mapa de forças e fricções**
+3. **Achados e hipóteses**
+4. **Evidência necessária**
+5. **Recomendação e trade-off**
+6. **Limites materiais**
 
-Evitar score obrigatório. Se priorização ajudar, usar severidade baseada em dano, frequência, reversibilidade e alcance.
+### Design de UX e produto
+
+1. **Atores, jobs e resultados**
+2. **Jornada, decisões e handoffs**
+3. **Superfícies, estados e acesso**
+4. **Contratos, erros e recuperação**
+5. **Validação e métricas**
+
+### Design de software e engenharia
+
+1. **Requisitos, restrições e invariantes**
+2. **Arquitetura, interfaces e estados**
+3. **Dependências, falhas e operação**
+4. **Alternativas e trade-offs**
+5. **Verificação, testes e evidência**
+
+### Operação comercial
+
+1. **Objetivo, segmentos e papéis**
+2. **Pipeline e critérios de passagem**
+3. **Dados, cadências e automações**
+4. **Forecast, governança e métricas**
+5. **Riscos e plano de implantação**
+
+### Criação de marketing
+
+1. **Objetivo, público e intensidade**
+2. **Desejo central e posicionamento**
+3. **Ângulo, nudge e fricção**
+4. **Material pronto para uso**
+5. **Variações**
+6. **Teste e métrica**
+
+Evitar score obrigatório. Se priorização ajudar, usar impacto comercial, dano potencial, frequência, reversibilidade, alcance e confiança.

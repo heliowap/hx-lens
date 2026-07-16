@@ -35,8 +35,8 @@ Não gerar nota geral ou radar por padrão. Um número único mascara incerteza 
 
 Separar:
 
-- **manter:** decisão que protege compreensão, autonomia ou continuidade;
-- **corrigir agora:** risco alto ou solução barata e clara;
+- **manter:** decisão que favorece o resultado humano ou comercial declarado;
+- **corrigir agora:** impacto negativo alto ou solução barata e clara;
 - **investigar:** hipótese plausível sem evidência suficiente;
 - **aceitar:** trade-off consciente, documentado e proporcional;
-- **encaminhar:** decisão clínica, jurídica, de segurança ou privacidade fora da competência da análise UX.
+- **encaminhar:** interpretação clínica, jurídica, regulatória, de segurança ou privacidade que exija especialista.

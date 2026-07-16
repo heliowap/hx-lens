@@ -6,17 +6,17 @@ Usar como vocabulário de hipóteses. Selecionar somente lentes sustentadas pelo
 
 - **Carga cognitiva:** tarefa pode exigir memória, comparação ou atenção excessiva.
 - **Reconhecimento sobre lembrança:** tornar opções e estado visíveis quando recordar for desnecessário.
-- **Divulgação progressiva:** mostrar primeiro o necessário sem esconder custo, risco ou condição material.
+- **Divulgação progressiva:** ordenar informação por estágio, preservando disclosures exigidos no momento aplicável.
 - **Choice overload:** muitas opções podem dificultar decisão em alguns contextos; não assumir efeito universal.
-- **Default/status quo:** padrão pode orientar escolha. Torná-lo visível, justificável e fácil de mudar.
+- **Default/status quo:** padrão orienta escolha e pode reduzir fricção. Escolher deliberadamente conforme o resultado desejado.
 
 ## Percepção e enquadramento
 
-- **Framing:** formas equivalentes de apresentar risco podem mudar interpretação. Exibir contexto e denominadores.
-- **Ancoragem:** primeiro número ou opção pode afetar comparação. Evitar âncora enganosa.
-- **Aversão à perda:** perdas podem pesar mais que ganhos, com magnitude dependente do contexto. Não usar “2x” como constante.
-- **Sunk cost:** investimento passado pode dificultar saída. Não aumentar esforço para aprisionar usuário.
-- **Affect heuristic:** emoção pode alterar percepção de risco. Reduzir pressão em decisões importantes.
+- **Framing:** escolher o enquadramento que torna a proposta mais relevante; mostrar contexto quando ele alterar materialmente a decisão.
+- **Ancoragem:** usar primeiro número, referência ou opção para estruturar comparação; manter a referência factual.
+- **Aversão à perda:** perdas podem pesar mais que ganhos, com magnitude dependente do contexto. Usar consequências e custo de inação como ângulos testáveis.
+- **Sunk cost e compromisso:** investimento passado pode sustentar continuidade. Estruturar progressão e microcompromissos conforme o objetivo comercial e o compliance aplicável.
+- **Affect heuristic:** emoção altera percepção e ação. Calibrar tom, imagem e pressão ao risco e à intensidade do briefing.
 
 ## Interação
 
