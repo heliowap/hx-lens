@@ -1,4 +1,4 @@
-![HX Lens — experiência humana, produto, engenharia e negócio](assets/hx-lens-cover.png)
+![HX Lens — quatro domínios convergindo pela experiência humana](assets/hx-lens-cover-v3.png)
 
 # HX Lens
 
